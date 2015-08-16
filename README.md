@@ -14,6 +14,12 @@ $ npm install -g grunt-cli
 $ grunt server
 ```
 
+## Test
+
+```console
+$ grunt test
+```
+
 ## Build
 
 ```console
