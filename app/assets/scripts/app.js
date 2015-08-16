@@ -1,3 +1,5 @@
-(function() {
-	alert('it\'s work');
-})();
+
+	function helloWorld() {
+		return "Hello world!";
+	}
+
