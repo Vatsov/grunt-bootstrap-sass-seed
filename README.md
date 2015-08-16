@@ -1,2 +1,21 @@
 # grunt-bootstrap-sass-seed
-A great starting point for writing  Twitter Bootstrap with LESS
+
+## Installation
+
+```console
+$ npm install
+$ npm install -g grunt
+$ npm install -g grunt-cli
+```
+
+## Start
+
+```console
+$ grunt server
+```
+
+## Build
+
+```console
+$ grunt build
+```
