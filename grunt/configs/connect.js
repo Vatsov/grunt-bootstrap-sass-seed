@@ -9,8 +9,6 @@ var mountFolder = function (connect, dir) {
 	return connect['static'](require('path').resolve(dir));
 };
 
-// Custom connect middleware for proxying WebAPI requests to a real WebAPI server, e.g.
-// Set APIURL=webapi1.dev1.dynamicaction.com:2060 as environment variable or pass it as a CLI option
 function webapiMiddleware() {
 	'use strict';
 
